@@ -1,0 +1,6 @@
+framework module Pods_XOXGame {
+  umbrella header "Pods-XOXGame-umbrella.h"
+
+  export *
+  module * { export * }
+}

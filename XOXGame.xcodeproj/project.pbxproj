@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62868781DF41A4D8611B3E89 /* Pods_XOXGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AF1F1474AC31414702C6CE /* Pods_XOXGameTests.framework */; };
+		8634428DCF67BC141482B482 /* Pods_XOXGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE40AE6E2CFA57388BEE69E8 /* Pods_XOXGame.framework */; };
+		A4C55446D93D7862236CE70B /* Pods_XOXGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A9B187C728A7452A849003 /* Pods_XOXGameUITests.framework */; };
+		C03712441FE01B7A001C4EF4 /* XOXGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03712431FE01B7A001C4EF4 /* XOXGame.swift */; };
+		C03712461FE02063001C4EF4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03712451FE02063001C4EF4 /* Player.swift */; };
+		C03712491FE020BC001C4EF4 /* Bot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03712481FE020BC001C4EF4 /* Bot.swift */; };
+		C053243E1FE13E6400060F6F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C053243D1FE13E6400060F6F /* GoogleService-Info.plist */; };
+		C055584A1FDF136D003D1FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05558491FDF136D003D1FD1 /* AppDelegate.swift */; };
+		C055584F1FDF136D003D1FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C055584D1FDF136D003D1FD1 /* Main.storyboard */; };
+		C05558511FDF136D003D1FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05558501FDF136D003D1FD1 /* Assets.xcassets */; };
+		C05558541FDF136D003D1FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05558521FDF136D003D1FD1 /* LaunchScreen.storyboard */; };
+		C055585F1FDF136D003D1FD1 /* XOXGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C055585E1FDF136D003D1FD1 /* XOXGameTests.swift */; };
+		C055586A1FDF136D003D1FD1 /* XOXGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05558691FDF136D003D1FD1 /* XOXGameUITests.swift */; };
+		C055587F1FDF1CBE003D1FD1 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C055587E1FDF1CBE003D1FD1 /* MainMenuViewController.swift */; };
+		C05558811FDF1CD8003D1FD1 /* SinglePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05558801FDF1CD8003D1FD1 /* SinglePlayerViewController.swift */; };
+		C05558831FDF1CE1003D1FD1 /* MultiPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05558821FDF1CE1003D1FD1 /* MultiPlayerViewController.swift */; };
+		C05558861FDF1CEF003D1FD1 /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05558851FDF1CEF003D1FD1 /* StatsViewController.swift */; };
+		C05558881FDF1CF9003D1FD1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05558871FDF1CF9003D1FD1 /* SettingsViewController.swift */; };
+		C055588B1FDF1D08003D1FD1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C055588A1FDF1D08003D1FD1 /* GameViewController.swift */; };
+		C055588D1FDF1D16003D1FD1 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C055588C1FDF1D16003D1FD1 /* LoadingViewController.swift */; };
+		C055588F1FDF1D26003D1FD1 /* UsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C055588E1FDF1D26003D1FD1 /* UsernameViewController.swift */; };
+		C05558911FDF245A003D1FD1 /* GameDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05558901FDF245A003D1FD1 /* GameDataSource.swift */; };
+		C0B2DAA91FF144B8002CC04A /* StatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B2DAA81FF144B8002CC04A /* StatsTableViewCell.swift */; };
+		C0E62F9C1FF012EA00B14B23 /* woosh.wav in Resources */ = {isa = PBXBuildFile; fileRef = C0E62F9B1FF012EA00B14B23 /* woosh.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C055585B1FDF136D003D1FD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C055583E1FDF136D003D1FD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C05558451FDF136D003D1FD1;
+			remoteInfo = XOXGame;
+		};
+		C05558661FDF136D003D1FD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C055583E1FDF136D003D1FD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C05558451FDF136D003D1FD1;
+			remoteInfo = XOXGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05AF1F1474AC31414702C6CE /* Pods_XOXGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XOXGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E291F69412531063E3F384 /* Pods-XOXGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XOXGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-XOXGame/Pods-XOXGame.release.xcconfig"; sourceTree = "<group>"; };
+		3286A354CA5E7E4B0B1D85E6 /* Pods-XOXGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XOXGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XOXGame/Pods-XOXGame.debug.xcconfig"; sourceTree = "<group>"; };
+		58BE89E8745273A9E54D7C67 /* Pods-XOXGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XOXGameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XOXGameUITests/Pods-XOXGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B491FB4D90A8A6C5788CD05 /* Pods-XOXGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XOXGameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XOXGameUITests/Pods-XOXGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A06BF7C6AAA095CBC7C34FF3 /* Pods-XOXGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XOXGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XOXGameTests/Pods-XOXGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE40AE6E2CFA57388BEE69E8 /* Pods_XOXGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XOXGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03712431FE01B7A001C4EF4 /* XOXGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOXGame.swift; sourceTree = "<group>"; };
+		C03712451FE02063001C4EF4 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		C03712481FE020BC001C4EF4 /* Bot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bot.swift; sourceTree = "<group>"; };
+		C053243D1FE13E6400060F6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C05558461FDF136D003D1FD1 /* XOXGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XOXGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05558491FDF136D003D1FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C055584E1FDF136D003D1FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C05558501FDF136D003D1FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C05558531FDF136D003D1FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C05558551FDF136D003D1FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C055585A1FDF136D003D1FD1 /* XOXGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XOXGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C055585E1FDF136D003D1FD1 /* XOXGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOXGameTests.swift; sourceTree = "<group>"; };
+		C05558601FDF136D003D1FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05558651FDF136D003D1FD1 /* XOXGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XOXGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05558691FDF136D003D1FD1 /* XOXGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOXGameUITests.swift; sourceTree = "<group>"; };
+		C055586B1FDF136D003D1FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C055587E1FDF1CBE003D1FD1 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		C05558801FDF1CD8003D1FD1 /* SinglePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlayerViewController.swift; sourceTree = "<group>"; };
+		C05558821FDF1CE1003D1FD1 /* MultiPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPlayerViewController.swift; sourceTree = "<group>"; };
+		C05558851FDF1CEF003D1FD1 /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		C05558871FDF1CF9003D1FD1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C055588A1FDF1D08003D1FD1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C055588C1FDF1D16003D1FD1 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		C055588E1FDF1D26003D1FD1 /* UsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameViewController.swift; sourceTree = "<group>"; };
+		C05558901FDF245A003D1FD1 /* GameDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDataSource.swift; sourceTree = "<group>"; };
+		C0B2DAA81FF144B8002CC04A /* StatsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsTableViewCell.swift; sourceTree = "<group>"; };
+		C0E62F9B1FF012EA00B14B23 /* woosh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = woosh.wav; sourceTree = "<group>"; };
+		C4C675A4F3C608686FBF4261 /* Pods-XOXGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XOXGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XOXGameTests/Pods-XOXGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5A9B187C728A7452A849003 /* Pods_XOXGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XOXGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C05558431FDF136D003D1FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8634428DCF67BC141482B482 /* Pods_XOXGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05558571FDF136D003D1FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62868781DF41A4D8611B3E89 /* Pods_XOXGameTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05558621FDF136D003D1FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C55446D93D7862236CE70B /* Pods_XOXGameUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E249A12482B5DA8DE0A2B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE40AE6E2CFA57388BEE69E8 /* Pods_XOXGame.framework */,
+				05AF1F1474AC31414702C6CE /* Pods_XOXGameTests.framework */,
+				D5A9B187C728A7452A849003 /* Pods_XOXGameUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C055583D1FDF136D003D1FD1 = {
+			isa = PBXGroup;
+			children = (
+				C0E62F9B1FF012EA00B14B23 /* woosh.wav */,
+				C05558481FDF136D003D1FD1 /* XOXGame */,
+				C055585D1FDF136D003D1FD1 /* XOXGameTests */,
+				C05558681FDF136D003D1FD1 /* XOXGameUITests */,
+				C05558471FDF136D003D1FD1 /* Products */,
+				C2F530ED1DC1B33133E57E80 /* Pods */,
+				84E249A12482B5DA8DE0A2B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C05558471FDF136D003D1FD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C05558461FDF136D003D1FD1 /* XOXGame.app */,
+				C055585A1FDF136D003D1FD1 /* XOXGameTests.xctest */,
+				C05558651FDF136D003D1FD1 /* XOXGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C05558481FDF136D003D1FD1 /* XOXGame */ = {
+			isa = PBXGroup;
+			children = (
+				C055587D1FDF1C7C003D1FD1 /* TableCell */,
+				C055587C1FDF1C75003D1FD1 /* Model */,
+				C055587B1FDF1C5F003D1FD1 /* Controller */,
+				C05558491FDF136D003D1FD1 /* AppDelegate.swift */,
+				C055584D1FDF136D003D1FD1 /* Main.storyboard */,
+				C05558501FDF136D003D1FD1 /* Assets.xcassets */,
+				C05558521FDF136D003D1FD1 /* LaunchScreen.storyboard */,
+				C05558551FDF136D003D1FD1 /* Info.plist */,
+				C053243D1FE13E6400060F6F /* GoogleService-Info.plist */,
+			);
+			path = XOXGame;
+			sourceTree = "<group>";
+		};
+		C055585D1FDF136D003D1FD1 /* XOXGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				C055585E1FDF136D003D1FD1 /* XOXGameTests.swift */,
+				C05558601FDF136D003D1FD1 /* Info.plist */,
+			);
+			path = XOXGameTests;
+			sourceTree = "<group>";
+		};
+		C05558681FDF136D003D1FD1 /* XOXGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C05558691FDF136D003D1FD1 /* XOXGameUITests.swift */,
+				C055586B1FDF136D003D1FD1 /* Info.plist */,
+			);
+			path = XOXGameUITests;
+			sourceTree = "<group>";
+		};
+		C055587B1FDF1C5F003D1FD1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C055587E1FDF1CBE003D1FD1 /* MainMenuViewController.swift */,
+				C05558801FDF1CD8003D1FD1 /* SinglePlayerViewController.swift */,
+				C05558821FDF1CE1003D1FD1 /* MultiPlayerViewController.swift */,
+				C05558851FDF1CEF003D1FD1 /* StatsViewController.swift */,
+				C05558871FDF1CF9003D1FD1 /* SettingsViewController.swift */,
+				C055588A1FDF1D08003D1FD1 /* GameViewController.swift */,
+				C055588C1FDF1D16003D1FD1 /* LoadingViewController.swift */,
+				C055588E1FDF1D26003D1FD1 /* UsernameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C055587C1FDF1C75003D1FD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C05558901FDF245A003D1FD1 /* GameDataSource.swift */,
+				C03712431FE01B7A001C4EF4 /* XOXGame.swift */,
+				C03712451FE02063001C4EF4 /* Player.swift */,
+				C03712481FE020BC001C4EF4 /* Bot.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C055587D1FDF1C7C003D1FD1 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				C0B2DAA81FF144B8002CC04A /* StatsTableViewCell.swift */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		C2F530ED1DC1B33133E57E80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3286A354CA5E7E4B0B1D85E6 /* Pods-XOXGame.debug.xcconfig */,
+				26E291F69412531063E3F384 /* Pods-XOXGame.release.xcconfig */,
+				C4C675A4F3C608686FBF4261 /* Pods-XOXGameTests.debug.xcconfig */,
+				A06BF7C6AAA095CBC7C34FF3 /* Pods-XOXGameTests.release.xcconfig */,
+				58BE89E8745273A9E54D7C67 /* Pods-XOXGameUITests.debug.xcconfig */,
+				7B491FB4D90A8A6C5788CD05 /* Pods-XOXGameUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C05558451FDF136D003D1FD1 /* XOXGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C055586E1FDF136D003D1FD1 /* Build configuration list for PBXNativeTarget "XOXGame" */;
+			buildPhases = (
+				8C1972A6A6DD86B877056AFD /* [CP] Check Pods Manifest.lock */,
+				C05558421FDF136D003D1FD1 /* Sources */,
+				C05558431FDF136D003D1FD1 /* Frameworks */,
+				C05558441FDF136D003D1FD1 /* Resources */,
+				7BBF512B4DC9AB3A33CECDD3 /* [CP] Embed Pods Frameworks */,
+				25F46A40C5193AC1266799E8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XOXGame;
+			productName = XOXGame;
+			productReference = C05558461FDF136D003D1FD1 /* XOXGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C05558591FDF136D003D1FD1 /* XOXGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05558711FDF136D003D1FD1 /* Build configuration list for PBXNativeTarget "XOXGameTests" */;
+			buildPhases = (
+				B6986B12A204A3CFC9768C75 /* [CP] Check Pods Manifest.lock */,
+				C05558561FDF136D003D1FD1 /* Sources */,
+				C05558571FDF136D003D1FD1 /* Frameworks */,
+				C05558581FDF136D003D1FD1 /* Resources */,
+				925F388BDDCB0C6FCC75A141 /* [CP] Embed Pods Frameworks */,
+				21A2DB6F9C6492B943114827 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C055585C1FDF136D003D1FD1 /* PBXTargetDependency */,
+			);
+			name = XOXGameTests;
+			productName = XOXGameTests;
+			productReference = C055585A1FDF136D003D1FD1 /* XOXGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C05558641FDF136D003D1FD1 /* XOXGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05558741FDF136D003D1FD1 /* Build configuration list for PBXNativeTarget "XOXGameUITests" */;
+			buildPhases = (
+				88CF5261F93BEB6CC8136D8A /* [CP] Check Pods Manifest.lock */,
+				C05558611FDF136D003D1FD1 /* Sources */,
+				C05558621FDF136D003D1FD1 /* Frameworks */,
+				C05558631FDF136D003D1FD1 /* Resources */,
+				3E0AC7DC4A095B3901BBFE10 /* [CP] Embed Pods Frameworks */,
+				C7148941FB2BDDCA3ED91782 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C05558671FDF136D003D1FD1 /* PBXTargetDependency */,
+			);
+			name = XOXGameUITests;
+			productName = XOXGameUITests;
+			productReference = C05558651FDF136D003D1FD1 /* XOXGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C055583E1FDF136D003D1FD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Berk;
+				TargetAttributes = {
+					C05558451FDF136D003D1FD1 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					C05558591FDF136D003D1FD1 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C05558451FDF136D003D1FD1;
+					};
+					C05558641FDF136D003D1FD1 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C05558451FDF136D003D1FD1;
+					};
+				};
+			};
+			buildConfigurationList = C05558411FDF136D003D1FD1 /* Build configuration list for PBXProject "XOXGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C055583D1FDF136D003D1FD1;
+			productRefGroup = C05558471FDF136D003D1FD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C05558451FDF136D003D1FD1 /* XOXGame */,
+				C05558591FDF136D003D1FD1 /* XOXGameTests */,
+				C05558641FDF136D003D1FD1 /* XOXGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C05558441FDF136D003D1FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E62F9C1FF012EA00B14B23 /* woosh.wav in Resources */,
+				C05558541FDF136D003D1FD1 /* LaunchScreen.storyboard in Resources */,
+				C053243E1FE13E6400060F6F /* GoogleService-Info.plist in Resources */,
+				C05558511FDF136D003D1FD1 /* Assets.xcassets in Resources */,
+				C055584F1FDF136D003D1FD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05558581FDF136D003D1FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05558631FDF136D003D1FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21A2DB6F9C6492B943114827 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XOXGameTests/Pods-XOXGameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25F46A40C5193AC1266799E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XOXGame/Pods-XOXGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E0AC7DC4A095B3901BBFE10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XOXGameUITests/Pods-XOXGameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BBF512B4DC9AB3A33CECDD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XOXGame/Pods-XOXGame-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XOXGame/Pods-XOXGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88CF5261F93BEB6CC8136D8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XOXGameUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C1972A6A6DD86B877056AFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XOXGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		925F388BDDCB0C6FCC75A141 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XOXGameTests/Pods-XOXGameTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XOXGameTests/Pods-XOXGameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6986B12A204A3CFC9768C75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XOXGameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7148941FB2BDDCA3ED91782 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XOXGameUITests/Pods-XOXGameUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C05558421FDF136D003D1FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C055588B1FDF1D08003D1FD1 /* GameViewController.swift in Sources */,
+				C055588F1FDF1D26003D1FD1 /* UsernameViewController.swift in Sources */,
+				C05558911FDF245A003D1FD1 /* GameDataSource.swift in Sources */,
+				C05558811FDF1CD8003D1FD1 /* SinglePlayerViewController.swift in Sources */,
+				C05558831FDF1CE1003D1FD1 /* MultiPlayerViewController.swift in Sources */,
+				C0B2DAA91FF144B8002CC04A /* StatsTableViewCell.swift in Sources */,
+				C03712461FE02063001C4EF4 /* Player.swift in Sources */,
+				C03712441FE01B7A001C4EF4 /* XOXGame.swift in Sources */,
+				C055588D1FDF1D16003D1FD1 /* LoadingViewController.swift in Sources */,
+				C055587F1FDF1CBE003D1FD1 /* MainMenuViewController.swift in Sources */,
+				C03712491FE020BC001C4EF4 /* Bot.swift in Sources */,
+				C05558861FDF1CEF003D1FD1 /* StatsViewController.swift in Sources */,
+				C055584A1FDF136D003D1FD1 /* AppDelegate.swift in Sources */,
+				C05558881FDF1CF9003D1FD1 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05558561FDF136D003D1FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C055585F1FDF136D003D1FD1 /* XOXGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05558611FDF136D003D1FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C055586A1FDF136D003D1FD1 /* XOXGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C055585C1FDF136D003D1FD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C05558451FDF136D003D1FD1 /* XOXGame */;
+			targetProxy = C055585B1FDF136D003D1FD1 /* PBXContainerItemProxy */;
+		};
+		C05558671FDF136D003D1FD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C05558451FDF136D003D1FD1 /* XOXGame */;
+			targetProxy = C05558661FDF136D003D1FD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C055584D1FDF136D003D1FD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C055584E1FDF136D003D1FD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C05558521FDF136D003D1FD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C05558531FDF136D003D1FD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C055586C1FDF136D003D1FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C055586D1FDF136D003D1FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C055586F1FDF136D003D1FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3286A354CA5E7E4B0B1D85E6 /* Pods-XOXGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XOXGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.quadsoft.XOXGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C05558701FDF136D003D1FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E291F69412531063E3F384 /* Pods-XOXGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XOXGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.quadsoft.XOXGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C05558721FDF136D003D1FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C675A4F3C608686FBF4261 /* Pods-XOXGameTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XOXGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.quadsoft.XOXGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XOXGame.app/XOXGame";
+			};
+			name = Debug;
+		};
+		C05558731FDF136D003D1FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A06BF7C6AAA095CBC7C34FF3 /* Pods-XOXGameTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XOXGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.quadsoft.XOXGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XOXGame.app/XOXGame";
+			};
+			name = Release;
+		};
+		C05558751FDF136D003D1FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58BE89E8745273A9E54D7C67 /* Pods-XOXGameUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XOXGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.quadsoft.XOXGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XOXGame;
+			};
+			name = Debug;
+		};
+		C05558761FDF136D003D1FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B491FB4D90A8A6C5788CD05 /* Pods-XOXGameUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XOXGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.quadsoft.XOXGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XOXGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05558411FDF136D003D1FD1 /* Build configuration list for PBXProject "XOXGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C055586C1FDF136D003D1FD1 /* Debug */,
+				C055586D1FDF136D003D1FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C055586E1FDF136D003D1FD1 /* Build configuration list for PBXNativeTarget "XOXGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C055586F1FDF136D003D1FD1 /* Debug */,
+				C05558701FDF136D003D1FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05558711FDF136D003D1FD1 /* Build configuration list for PBXNativeTarget "XOXGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05558721FDF136D003D1FD1 /* Debug */,
+				C05558731FDF136D003D1FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05558741FDF136D003D1FD1 /* Build configuration list for PBXNativeTarget "XOXGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05558751FDF136D003D1FD1 /* Debug */,
+				C05558761FDF136D003D1FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C055583E1FDF136D003D1FD1 /* Project object */;
+}

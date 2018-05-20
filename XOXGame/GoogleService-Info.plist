@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>76756917159-7mist0l9h0e9kp84c532r36v0m08me3q.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.76756917159-7mist0l9h0e9kp84c532r36v0m08me3q</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCsqfFH5obJtEgNFxGesdHvsrLWc0CtMBo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>76756917159</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>me.quadsoft.XOXGame</string>
+	<key>PROJECT_ID</key>
+	<string>comp319-f4f7b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>comp319-f4f7b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:76756917159:ios:46127343af3a1c3d</string>
+	<key>DATABASE_URL</key>
+	<string>https://comp319-f4f7b.firebaseio.com</string>
+</dict>
+</plist>
